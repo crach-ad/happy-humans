@@ -64,7 +64,13 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-1 pt-6">
                   <div className="relative h-60 w-full overflow-hidden rounded-lg mb-4">
-                    <Image src="/market-stroll.png" alt="Shopping Spree Program" fill className="object-cover" />
+                    <Image 
+                      src="/shoppinghome.png" 
+                      alt="Happy Humans Shopping Program" 
+                      fill 
+                      className="object-contain" 
+                      style={{ objectPosition: 'center' }} 
+                    />
                   </div>
                   <p className="text-gray-600">
                     Our Shopping Spree program provides essential items to those in need, helping families and
@@ -85,7 +91,13 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="flex-1 pt-6">
                   <div className="relative h-60 w-full overflow-hidden rounded-lg mb-4">
-                    <Image src="/images/stem-students.jpg" alt="Children engaged in STEM learning with tablets" fill className="object-cover" />
+                    <Image 
+                      src="/joheim.jpeg" 
+                      alt="Student engaged in STEM learning activities" 
+                      fill 
+                      className="object-contain" 
+                      style={{ objectPosition: 'center' }} 
+                    />
                   </div>
                   <p className="text-gray-600">
                     Our STEM program provides hands-on educational opportunities in Science, Technology, Engineering, and
